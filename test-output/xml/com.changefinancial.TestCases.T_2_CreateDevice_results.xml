@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="demo2"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="16.378">
+  <properties />
+  
+  
+            <testcase name="createDevice" time="16.378" classname="com.changefinancial.TestCases.T_2_CreateDevice" />
+      
+</testsuite>

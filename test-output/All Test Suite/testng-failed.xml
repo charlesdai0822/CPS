@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test parallel="tests" name="demo2(failed)">
+    <classes>
+      <class name="com.changefinancial.TestCases.T_3_ConfigDevice">
+        <methods>
+          <include name="testMethodEnd"/>
+        </methods>
+      </class> <!-- com.changefinancial.TestCases.T_3_ConfigDevice -->
+      <class name="com.changefinancial.TestCases.T_2_CreateDevice">
+        <methods>
+          <include name="testMethodEnd"/>
+          <include name="createDevice"/>
+        </methods>
+      </class> <!-- com.changefinancial.TestCases.T_2_CreateDevice -->
+      <class name="com.changefinancial.TestCases.T_1_InitializeSystemAfterInstallation">
+        <methods>
+          <include name="testMethodEnd"/>
+        </methods>
+      </class> <!-- com.changefinancial.TestCases.T_1_InitializeSystemAfterInstallation -->
+    </classes>
+  </test> <!-- demo2(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

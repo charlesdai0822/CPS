@@ -1,0 +1,109 @@
+{
+  "9bd04c5a9149aa5f4062b181438f00b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "1ab9c0d06b2aeccf",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/3/allure/#testresult/1ab9c0d06b2aeccf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622683566232,
+        "stop" : 1622683580089,
+        "duration" : 13857
+      }
+    }, {
+      "uid" : "546153d5e6345dab",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/2/allure/#testresult/546153d5e6345dab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622675855502,
+        "stop" : 1622675870046,
+        "duration" : 14544
+      }
+    }, {
+      "uid" : "e92a74d56a1158b6",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/1/allure/#testresult/e92a74d56a1158b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622675855502,
+        "stop" : 1622675870046,
+        "duration" : 14544
+      }
+    } ]
+  },
+  "231b191b11a798bd00ea18fa6aeac9fe" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "b9d6c4c0ddc05e2b",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/3/allure/#testresult/b9d6c4c0ddc05e2b",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622676352387,
+        "stop" : 1622676367640,
+        "duration" : 15253
+      }
+    }, {
+      "uid" : "f228d18edff9806",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/2/allure/#testresult/f228d18edff9806",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622676352387,
+        "stop" : 1622676367640,
+        "duration" : 15253
+      }
+    } ]
+  },
+  "ea40fcc54bebf17a3aa99cef63287368" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "b2143681248bbc06",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/3/allure/#testresult/b2143681248bbc06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622683548522,
+        "stop" : 1622683564854,
+        "duration" : 16332
+      }
+    }, {
+      "uid" : "8548ab2a9f36977e",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/2/allure/#testresult/8548ab2a9f36977e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622676335454,
+        "stop" : 1622676351201,
+        "duration" : 15747
+      }
+    }, {
+      "uid" : "7db2ab343cf512c2",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/1/allure/#testresult/7db2ab343cf512c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622675838371,
+        "stop" : 1622675854291,
+        "duration" : 15920
+      }
+    } ]
+  }
+}

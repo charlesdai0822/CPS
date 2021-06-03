@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite 1">
+    <test name="TEST_1" verbose="2" preserve-order="true" enabled="true">
+        <classes>
+            <class name="com.changefinancial.TestCases.T_2_CreateDevice"></class>
+            <class name="com.changefinancial.TestCases.T_6_ChangePasswordWithWrongPassword"></class>
+        </classes>
+    </test>
+</suite>

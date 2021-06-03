@@ -1,0 +1,99 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WNZ202",
+    "children" : [ {
+      "name" : "7584@WNZ202.main(1)",
+      "children" : [ {
+        "name" : "createDevice",
+        "uid" : "545c12d32bb39a6d",
+        "parentUid" : "e4898ab67affd0d140f71ff031c6d382",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622675838371,
+          "stop" : 1622675854291,
+          "duration" : 15920
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changePassword",
+        "uid" : "47d5f3baa59debde",
+        "parentUid" : "e4898ab67affd0d140f71ff031c6d382",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622675855502,
+          "stop" : 1622675870046,
+          "duration" : 14544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e4898ab67affd0d140f71ff031c6d382"
+    }, {
+      "name" : "22208@WNZ202.main(1)",
+      "children" : [ {
+        "name" : "createDevice",
+        "uid" : "b2143681248bbc06",
+        "parentUid" : "42f328b79f6c84fe1a6303a887e82c40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622683548522,
+          "stop" : 1622683564854,
+          "duration" : 16332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changePassword",
+        "uid" : "1ab9c0d06b2aeccf",
+        "parentUid" : "42f328b79f6c84fe1a6303a887e82c40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622683566232,
+          "stop" : 1622683580089,
+          "duration" : 13857
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "42f328b79f6c84fe1a6303a887e82c40"
+    }, {
+      "name" : "22916@WNZ202.main(1)",
+      "children" : [ {
+        "name" : "createDevice",
+        "uid" : "dd4fecab8349e73a",
+        "parentUid" : "3b57481dbabd37140cc96e9c556180f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622676335454,
+          "stop" : 1622676351201,
+          "duration" : 15747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changePassword",
+        "uid" : "b9d6c4c0ddc05e2b",
+        "parentUid" : "3b57481dbabd37140cc96e9c556180f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622676352387,
+          "stop" : 1622676367640,
+          "duration" : 15253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b57481dbabd37140cc96e9c556180f2"
+    } ],
+    "uid" : "5a055349274d4f8fc7474490c16ea4fe"
+  } ]
+}

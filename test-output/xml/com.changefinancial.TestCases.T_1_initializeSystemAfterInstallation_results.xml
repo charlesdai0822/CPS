@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="demo1"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="50.385">
+  <properties />
+  
+  
+            <testcase name="initializeSystem" time="50.385" classname="com.changefinancial.TestCases.T_1_InitializeSystemAfterInstallation" />
+      
+</testsuite>

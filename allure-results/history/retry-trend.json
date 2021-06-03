@@ -1,0 +1,17 @@
+[ {
+  "buildOrder" : 2,
+  "reportUrl" : "http://localhost:8080/job/Allure_Report/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 3,
+    "retry" : 1
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:8080/job/Allure_Report/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 2,
+    "retry" : 0
+  }
+} ]
