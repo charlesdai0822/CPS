@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.72 s - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 34.541 s <<< FAILURE! - in TestSuite
+com.changefinancial.TestCases.T_5_ChangePasswordWithCorrectPassword.changePassword  Time elapsed: 16.913 s  <<< FAILURE!
+java.lang.AssertionError: expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]
+	at com.changefinancial.TestCases.T_5_ChangePasswordWithCorrectPassword.changePassword(T_5_ChangePasswordWithCorrectPassword.java:42)
+

@@ -1,0 +1,451 @@
+{
+  "9bd04c5a9149aa5f4062b181438f00b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 17,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "16f713302c5d6c5e",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/27/allure/#testresult/16f713302c5d6c5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622799387709,
+        "stop" : 1622799404113,
+        "duration" : 16404
+      }
+    }, {
+      "uid" : "2bf3abfedce21650",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/24/allure/#testresult/2bf3abfedce21650",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622795733654,
+        "stop" : 1622795749961,
+        "duration" : 16307
+      }
+    }, {
+      "uid" : "73cfa0fb1eecf8e3",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/22/allure/#testresult/73cfa0fb1eecf8e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622795548188,
+        "stop" : 1622795564538,
+        "duration" : 16350
+      }
+    }, {
+      "uid" : "c0995f45dc443511",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/21/allure/#testresult/c0995f45dc443511",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622795306658,
+        "stop" : 1622795322783,
+        "duration" : 16125
+      }
+    }, {
+      "uid" : "5805811f2132eab9",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/20/allure/#testresult/5805811f2132eab9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622795306658,
+        "stop" : 1622795322783,
+        "duration" : 16125
+      }
+    }, {
+      "uid" : "1dec7c2025a9bb31",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/18/allure/#testresult/1dec7c2025a9bb31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622795084726,
+        "stop" : 1622795102459,
+        "duration" : 17733
+      }
+    }, {
+      "uid" : "5de0cc3fc83c5fcc",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/17/allure/#testresult/5de0cc3fc83c5fcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622794493216,
+        "stop" : 1622794509172,
+        "duration" : 15956
+      }
+    }, {
+      "uid" : "fe61f5c238039b4e",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/10/allure/#testresult/fe61f5c238039b4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622771526985,
+        "stop" : 1622771540630,
+        "duration" : 13645
+      }
+    }, {
+      "uid" : "251b523d1dc71400",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/9/allure/#testresult/251b523d1dc71400",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622771526985,
+        "stop" : 1622771540630,
+        "duration" : 13645
+      }
+    }, {
+      "uid" : "e7f46bb02997f5b7",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/8/allure/#testresult/e7f46bb02997f5b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622771526985,
+        "stop" : 1622771540630,
+        "duration" : 13645
+      }
+    }, {
+      "uid" : "dd43d523175db18d",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/7/allure/#testresult/dd43d523175db18d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622771526985,
+        "stop" : 1622771540630,
+        "duration" : 13645
+      }
+    }, {
+      "uid" : "f80a074258fb1c38",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/6/allure/#testresult/f80a074258fb1c38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622771337932,
+        "stop" : 1622771354259,
+        "duration" : 16327
+      }
+    }, {
+      "uid" : "379c09a070b28615",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/5/allure/#testresult/379c09a070b28615",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622757921205,
+        "stop" : 1622757936191,
+        "duration" : 14986
+      }
+    }, {
+      "uid" : "85baba890eed1a5",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/4/allure/#testresult/85baba890eed1a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622757921205,
+        "stop" : 1622757936191,
+        "duration" : 14986
+      }
+    }, {
+      "uid" : "b0c2219c697b2691",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/3/allure/#testresult/b0c2219c697b2691",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622757921205,
+        "stop" : 1622757936191,
+        "duration" : 14986
+      }
+    }, {
+      "uid" : "4f847e061492d6a5",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/2/allure/#testresult/4f847e061492d6a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622757591018,
+        "stop" : 1622757606439,
+        "duration" : 15421
+      }
+    }, {
+      "uid" : "88ec4e08471b400e",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/1/allure/#testresult/88ec4e08471b400e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622756142116,
+        "stop" : 1622756155749,
+        "duration" : 13633
+      }
+    } ]
+  },
+  "231b191b11a798bd00ea18fa6aeac9fe" : {
+    "statistic" : {
+      "failed" : 18,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 18
+    },
+    "items" : [ {
+      "uid" : "e0d903a767f5485f",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/28/allure/#testresult/e0d903a767f5485f",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622799466352,
+        "stop" : 1622799484831,
+        "duration" : 18479
+      }
+    }, {
+      "uid" : "999a8ef258bbdfbe",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/26/allure/#testresult/999a8ef258bbdfbe",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622798508894,
+        "stop" : 1622798525973,
+        "duration" : 17079
+      }
+    }, {
+      "uid" : "389e0d83b32ae9f8",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/23/allure/#testresult/389e0d83b32ae9f8",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622795637954,
+        "stop" : 1622795654797,
+        "duration" : 16843
+      }
+    }, {
+      "uid" : "285487886948b2b1",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/21/allure/#testresult/285487886948b2b1",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622795449847,
+        "stop" : 1622795466239,
+        "duration" : 16392
+      }
+    }, {
+      "uid" : "34097a230ec45de8",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/19/allure/#testresult/34097a230ec45de8",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622795198883,
+        "stop" : 1622795214693,
+        "duration" : 15810
+      }
+    }, {
+      "uid" : "a2e6af044edc14f",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/17/allure/#testresult/a2e6af044edc14f",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622793487968,
+        "stop" : 1622793504533,
+        "duration" : 16565
+      }
+    }, {
+      "uid" : "aa6aa2f751c6c68a",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/16/allure/#testresult/aa6aa2f751c6c68a",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622793487968,
+        "stop" : 1622793504533,
+        "duration" : 16565
+      }
+    }, {
+      "uid" : "50098e35ce4e791d",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/13/allure/#testresult/50098e35ce4e791d",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622779208994,
+        "stop" : 1622779224638,
+        "duration" : 15644
+      }
+    }, {
+      "uid" : "cc2b2f2e51646bad",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/12/allure/#testresult/cc2b2f2e51646bad",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622778864510,
+        "stop" : 1622778880261,
+        "duration" : 15751
+      }
+    }, {
+      "uid" : "8e036db7ae9561d1",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/11/allure/#testresult/8e036db7ae9561d1",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622778864510,
+        "stop" : 1622778880261,
+        "duration" : 15751
+      }
+    }, {
+      "uid" : "f93ecaf2d33e76d4",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/10/allure/#testresult/f93ecaf2d33e76d4",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622774324924,
+        "stop" : 1622774340287,
+        "duration" : 15363
+      }
+    }, {
+      "uid" : "621aee71ec8f849",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/9/allure/#testresult/621aee71ec8f849",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622774324924,
+        "stop" : 1622774340287,
+        "duration" : 15363
+      }
+    }, {
+      "uid" : "de06b049a6b70f0f",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/8/allure/#testresult/de06b049a6b70f0f",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622772130127,
+        "stop" : 1622772147944,
+        "duration" : 17817
+      }
+    }, {
+      "uid" : "22b3f07ce6b48f08",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/7/allure/#testresult/22b3f07ce6b48f08",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622771509431,
+        "stop" : 1622771525802,
+        "duration" : 16371
+      }
+    }, {
+      "uid" : "c4c545e2a1c0dd29",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/5/allure/#testresult/c4c545e2a1c0dd29",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622757285240,
+        "stop" : 1622757300570,
+        "duration" : 15330
+      }
+    }, {
+      "uid" : "8a5ff654fe9505ac",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/4/allure/#testresult/8a5ff654fe9505ac",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622757285240,
+        "stop" : 1622757300570,
+        "duration" : 15330
+      }
+    }, {
+      "uid" : "1533cbb8573133eb",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/3/allure/#testresult/1533cbb8573133eb",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622757285240,
+        "stop" : 1622757300570,
+        "duration" : 15330
+      }
+    }, {
+      "uid" : "a011d15252fd528b",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/2/allure/#testresult/a011d15252fd528b",
+      "status" : "failed",
+      "statusDetails" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "time" : {
+        "start" : 1622757285240,
+        "stop" : 1622757300570,
+        "duration" : 15330
+      }
+    } ]
+  },
+  "ea40fcc54bebf17a3aa99cef63287368" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "2829681b0dea0848",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/5/allure/#testresult/2829681b0dea0848",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622756124553,
+        "stop" : 1622756140845,
+        "duration" : 16292
+      }
+    }, {
+      "uid" : "1bebac37aa8a74cb",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/4/allure/#testresult/1bebac37aa8a74cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622756124553,
+        "stop" : 1622756140845,
+        "duration" : 16292
+      }
+    }, {
+      "uid" : "ac26c544e9b51f38",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/3/allure/#testresult/ac26c544e9b51f38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622756124553,
+        "stop" : 1622756140845,
+        "duration" : 16292
+      }
+    }, {
+      "uid" : "2897cec57d1a1f5",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/2/allure/#testresult/2897cec57d1a1f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622756124553,
+        "stop" : 1622756140845,
+        "duration" : 16292
+      }
+    }, {
+      "uid" : "309b31302b1554d2",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/1/allure/#testresult/309b31302b1554d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622756124553,
+        "stop" : 1622756140845,
+        "duration" : 16292
+      }
+    } ]
+  },
+  "3f1f20fd8b527aff9a7c18d92614006a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "2a7c030ca00f2164",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/12/allure/#testresult/2a7c030ca00f2164",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622777894119,
+        "stop" : 1622777922461,
+        "duration" : 28342
+      }
+    }, {
+      "uid" : "10d6c13f58a85f",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/11/allure/#testresult/10d6c13f58a85f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622777894119,
+        "stop" : 1622777922461,
+        "duration" : 28342
+      }
+    }, {
+      "uid" : "bb8360a9a0e68953",
+      "reportUrl" : "http://localhost:8080/job/Allure_Report/10/allure/#testresult/bb8360a9a0e68953",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622774810564,
+        "stop" : 1622774839739,
+        "duration" : 29175
+      }
+    } ]
+  }
+}

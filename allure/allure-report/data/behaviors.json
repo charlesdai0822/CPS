@@ -1,0 +1,35 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Change password",
+    "children" : [ {
+      "name" : "changePassword",
+      "uid" : "66207bd5fda81c80",
+      "parentUid" : "874b4f055cdc96883edadc16ad1f0602",
+      "status" : "failed",
+      "time" : {
+        "start" : 1622799609481,
+        "stop" : 1622799626307,
+        "duration" : 16826
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "changePassword",
+      "uid" : "d2fff47c409c9f14",
+      "parentUid" : "874b4f055cdc96883edadc16ad1f0602",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622799627417,
+        "stop" : 1622799641166,
+        "duration" : 13749
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "874b4f055cdc96883edadc16ad1f0602"
+  } ]
+}

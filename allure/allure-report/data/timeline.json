@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WNZ202",
+    "children" : [ {
+      "name" : "19108@WNZ202.main(1)",
+      "children" : [ {
+        "name" : "changePassword",
+        "uid" : "66207bd5fda81c80",
+        "parentUid" : "5412021d841bf97d6934989ebd5a707b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622799609481,
+          "stop" : 1622799626307,
+          "duration" : 16826
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "changePassword",
+        "uid" : "d2fff47c409c9f14",
+        "parentUid" : "5412021d841bf97d6934989ebd5a707b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622799627417,
+          "stop" : 1622799641166,
+          "duration" : 13749
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5412021d841bf97d6934989ebd5a707b"
+    } ],
+    "uid" : "5a055349274d4f8fc7474490c16ea4fe"
+  } ]
+}

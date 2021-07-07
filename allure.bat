@@ -1,1 +1,0 @@
-allure serve C:\cdai\study\CPS\allure-results

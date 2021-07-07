@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Jun 03 13:25:48 NZST 2021","Thu Jun 03 13:26:04 NZST 2021","16332","Suite 1","TEST_1","com.changefinancial.TestCases.T_2_CreateDevice","com.changefinancial.TestCases.T_2_CreateDevice","createDevice","createDevice",""
-"failed","Thu Jun 03 11:25:52 NZST 2021","Thu Jun 03 11:26:07 NZST 2021","15253","Suite 1","TEST_1","com.changefinancial.TestCases.T_5_ChangePasswordWithCorrectPassword","com.changefinancial.TestCases.T_5_ChangePasswordWithCorrectPassword","changePassword","changePassword",""
-"passed","Thu Jun 03 13:26:06 NZST 2021","Thu Jun 03 13:26:20 NZST 2021","13857","Suite 1","TEST_1","com.changefinancial.TestCases.T_6_ChangePasswordWithWrongPassword","com.changefinancial.TestCases.T_6_ChangePasswordWithWrongPassword","changePassword","changePassword",""

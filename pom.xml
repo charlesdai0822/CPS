@@ -32,25 +32,6 @@
     </dependency>
 
     <dependency>
-      <groupId>org.mybatis</groupId>
-      <artifactId>mybatis</artifactId>
-      <version>3.4.6</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.uncommons</groupId>
-      <artifactId>reportng</artifactId>
-      <version>1.1.2</version>
-      <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <groupId>org.testng</groupId>
-          <artifactId>testng</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-
-    <dependency>
       <groupId>com.oracle.database.jdbc</groupId>
       <artifactId>ojdbc8</artifactId>
       <version>19.7.0.0</version>
@@ -80,17 +61,6 @@
     </dependency>
 
     <dependency>
-      <groupId>ru.yandex.qatools.ashot</groupId>
-      <artifactId>ashot</artifactId>
-      <version>${ashot-version}</version>
-      <exclusions>
-        <exclusion>
-          <groupId>org.testng</groupId>
-          <artifactId>testng</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
       <groupId>io.qameta.allure</groupId>
       <artifactId>allure-testng</artifactId>
       <version>${allure-testng-version}</version>
@@ -119,7 +89,7 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M4</version>
           <configuration>
-            <testFailureIgnore>false</testFailureIgnore>
+            <testFailureIgnore>true</testFailureIgnore>
             <skipTests>false</skipTests>
             <suiteXmlFiles>
               <suiteXmlFile>${xmlFileName}</suiteXmlFile>
@@ -131,7 +101,7 @@
             <systemProperties>
               <property>
                 <name>allure.results.directory</name>
-                <value>./allure-results</value>
+                <value>./allure/allure-results</value>
               </property>
             </systemProperties>
             <properties>

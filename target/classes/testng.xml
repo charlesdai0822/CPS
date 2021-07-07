@@ -3,7 +3,7 @@
 <suite name="Suite 1">
     <test name="TEST_1" verbose="2" preserve-order="true" enabled="true">
         <classes>
-            <class name="com.changefinancial.TestCases.T_2_CreateDevice"></class>
+            <class name="com.changefinancial.TestCases.T_5_ChangePasswordWithCorrectPassword"></class>
             <class name="com.changefinancial.TestCases.T_6_ChangePasswordWithWrongPassword"></class>
         </classes>
     </test>
