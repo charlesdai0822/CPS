@@ -1,21 +1,11 @@
 [ {
-  "uid" : "d2fff47c409c9f14",
-  "name" : "changePassword",
+  "uid" : "fe73c2ed4f7adf4c",
+  "name" : "sendRegressionRequest",
   "time" : {
-    "start" : 1622799627417,
-    "stop" : 1622799641166,
-    "duration" : 13749
+    "start" : 1629777723609,
+    "stop" : 1629777731333,
+    "duration" : 7724
   },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "66207bd5fda81c80",
-  "name" : "changePassword",
-  "time" : {
-    "start" : 1622799609481,
-    "stop" : 1622799626307,
-    "duration" : 16826
-  },
-  "status" : "failed",
-  "severity" : "blocker"
+  "status" : "broken",
+  "severity" : "normal"
 } ]

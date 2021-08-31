@@ -4,12 +4,12 @@
     "uid" : "8d90eb673c305637956bc6386d648a71",
     "name" : "Suite 1",
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     }
   } ]
 }

@@ -1,5 +1,6 @@
 package com.changefinancial.utils;
 
+import io.restassured.response.Response;
 import org.testng.Assert;
 
 import java.util.Iterator;
@@ -62,5 +63,24 @@ public class AssertLocal {
             Action.saveScreenshotPNG();
             throw e;
         }
+    }
+
+    //assert status code
+    public static void checkStatusCode(Response res, int statusCode){
+        try{
+            assertEquals(res.getStatusCode(),statusCode);
+        }catch(Error e){
+            throw e;
+        }
+    }
+
+    //print all response content
+    public void printAllResponseText(Response res){
+        System.out.println(res.then().log().all());
+    }
+
+    //print response body
+    public void printResponseBody(Response res){
+        System.out.println(res.then().log().body());
     }
 }

@@ -9,8 +9,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 
 public class Action {
 
@@ -77,5 +81,21 @@ public class Action {
     @Attachment(value = "Failure", type = "image/png")
     public static byte[] saveScreenshotPNG(){
         return ((TakesScreenshot) BaseCase.DriverManager.getDriver()).getScreenshotAs(OutputType.BYTES);
+    }
+
+    public static String getJsonFile(String filePath){
+        List<String> lines;
+        Path path;
+        String jsonStr = "";
+        try{
+            path = Paths.get(filePath);
+            lines = Files.readAllLines(path);
+            for(int i=0;i<lines.size();i++){
+                jsonStr = jsonStr+lines.get(i);
+            }
+        }catch(Exception e){
+            return null;
+        }
+        return jsonStr;
     }
 }

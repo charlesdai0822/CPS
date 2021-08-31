@@ -2,25 +2,25 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "expected [1Your password has been updated successfully.] but found [Your password has been updated successfully.]",
+      "name" : "request parameter is NOT equal to output",
       "children" : [ {
-        "name" : "changePassword",
-        "uid" : "66207bd5fda81c80",
-        "parentUid" : "185c4bfdbe7e9fbd88966c535e63ac6c",
-        "status" : "failed",
+        "name" : "sendRegressionRequest",
+        "uid" : "fe73c2ed4f7adf4c",
+        "parentUid" : "a44a71a88ece25b82fb7dc287adffef0",
+        "status" : "broken",
         "time" : {
-          "start" : 1622799609481,
-          "stop" : 1622799626307,
-          "duration" : 16826
+          "start" : 1629777723609,
+          "stop" : 1629777731333,
+          "duration" : 7724
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "185c4bfdbe7e9fbd88966c535e63ac6c"
+      "uid" : "a44a71a88ece25b82fb7dc287adffef0"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

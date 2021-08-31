@@ -2,42 +2,21 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "com.changefinancial.TestCases",
+    "name" : "com.changefinancial.TestCases.APITest",
     "children" : [ {
-      "name" : "T_5_ChangePasswordWithCorrectPassword",
-      "children" : [ {
-        "name" : "changePassword",
-        "uid" : "66207bd5fda81c80",
-        "parentUid" : "1fa4c996ae32c3d95f9704ba86d2353c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1622799609481,
-          "stop" : 1622799626307,
-          "duration" : 16826
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "1fa4c996ae32c3d95f9704ba86d2353c"
-    }, {
-      "name" : "T_6_ChangePasswordWithWrongPassword",
-      "children" : [ {
-        "name" : "changePassword",
-        "uid" : "d2fff47c409c9f14",
-        "parentUid" : "48e5d4203a5cafd3ea656c4d86b9d47e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1622799627417,
-          "stop" : 1622799641166,
-          "duration" : 13749
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "48e5d4203a5cafd3ea656c4d86b9d47e"
+      "name" : "sendRegressionRequest",
+      "uid" : "fe73c2ed4f7adf4c",
+      "parentUid" : "a385b6b48e76b1109ccd5bf61f2c40a7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629777723609,
+        "stop" : 1629777731333,
+        "duration" : 7724
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
     } ],
-    "uid" : "com.changefinancial.TestCases"
+    "uid" : "com.changefinancial.TestCases.APITest"
   } ]
 }

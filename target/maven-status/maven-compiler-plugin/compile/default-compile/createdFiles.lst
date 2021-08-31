@@ -2,6 +2,7 @@ com\changefinancial\TestCases\T_7_SendCreditTransfer.class
 com\changefinancial\utils\Log.class
 com\changefinancial\TestCases\T_3_ConfigDevice.class
 com\changefinancial\pages\SystemAdminPage.class
+com\changefinancial\TestCases\Request.class
 com\changefinancial\TestCases\T_5_ChangePasswordWithCorrectPassword.class
 com\changefinancial\pages\AdminEnvironmentsPage.class
 com\changefinancial\TestCases\JustTest.class
@@ -18,6 +19,8 @@ com\changefinancial\pages\AdminUsersPage.class
 com\changefinancial\pages\AdminSettingPage.class
 com\changefinancial\TestCases\T_2_CreateDevice.class
 com\changefinancial\pages\DevicePageMainTab.class
+com\changefinancial\TestCases\APIBase.class
+com\changefinancial\TestCases\APITest.class
 com\changefinancial\pages\SystemAdminUsersPage.class
 com\changefinancial\utils\TableTools.class
 com\changefinancial\utils\Action.class

@@ -4,35 +4,22 @@
   "children" : [ {
     "name" : "WNZ202",
     "children" : [ {
-      "name" : "19108@WNZ202.main(1)",
+      "name" : "14712@WNZ202.main(1)",
       "children" : [ {
-        "name" : "changePassword",
-        "uid" : "66207bd5fda81c80",
-        "parentUid" : "5412021d841bf97d6934989ebd5a707b",
-        "status" : "failed",
+        "name" : "sendRegressionRequest",
+        "uid" : "fe73c2ed4f7adf4c",
+        "parentUid" : "f081ff0373263667326e98fa15397831",
+        "status" : "broken",
         "time" : {
-          "start" : 1622799609481,
-          "stop" : 1622799626307,
-          "duration" : 16826
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "changePassword",
-        "uid" : "d2fff47c409c9f14",
-        "parentUid" : "5412021d841bf97d6934989ebd5a707b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1622799627417,
-          "stop" : 1622799641166,
-          "duration" : 13749
+          "start" : 1629777723609,
+          "stop" : 1629777731333,
+          "duration" : 7724
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5412021d841bf97d6934989ebd5a707b"
+      "uid" : "f081ff0373263667326e98fa15397831"
     } ],
     "uid" : "5a055349274d4f8fc7474490c16ea4fe"
   } ]

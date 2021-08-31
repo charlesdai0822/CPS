@@ -3,17 +3,7 @@
 <suite name="Failed suite [Suite 1]" guice-stage="DEVELOPMENT">
   <test name="TEST_1" verbose="2">
     <classes>
-      <class name="com.changefinancial.TestCases.T_5_ChangePasswordWithCorrectPassword"/>
+      <class name="com.changefinancial.TestCases.APITest"/>
     </classes>
   </test> <!-- TEST_1 -->
-  <test name="TEST_1(failed)">
-    <classes>
-      <class name="com.changefinancial.TestCases.T_5_ChangePasswordWithCorrectPassword">
-        <methods>
-          <include name="testMethodEnd"/>
-          <include name="changePassword"/>
-        </methods>
-      </class> <!-- com.changefinancial.TestCases.T_5_ChangePasswordWithCorrectPassword -->
-    </classes>
-  </test> <!-- TEST_1(failed) -->
 </suite> <!-- Failed suite [Suite 1] -->
