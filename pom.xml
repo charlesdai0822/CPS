@@ -16,7 +16,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>11.0</maven.compiler.source>
     <maven.compiler.target>11.0</maven.compiler.target>
-    <xmlFileName>testng.xml</xmlFileName>
+    <xmlFileName>src/main/sources/testng.xml</xmlFileName>
     <test.report.dir>test-output</test.report.dir>
     <aspectj.version>1.9.6</aspectj.version>
     <ashot-version>1.5.4</ashot-version>
