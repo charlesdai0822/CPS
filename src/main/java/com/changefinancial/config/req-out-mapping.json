@@ -1,3 +1,4 @@
 {
-"regression":{"batchFile":"BATCH_FILE"}
+"regression":{"batchFile":"BATCH_FILE","user": "User","password": "Password","prntRegRpAtEnd": "PrntRegRpAtEnd","sprPort": "SprPort","autoStart": "AutoStart"},
+  "stress": {"batchFile":"BATCH_FILE","user": "User","password": "Password","prntRegRpAtEnd": "PrntRegRpAtEnd","sprPort": "SprPort","autoStart": "AutoStart"}
 }

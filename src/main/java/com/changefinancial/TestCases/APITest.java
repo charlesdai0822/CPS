@@ -1,25 +1,50 @@
 package com.changefinancial.TestCases;
 
+import com.changefinancial.utils.Excel;
+import com.changefinancial.utils.Output;
+import com.changefinancial.utils.Request;
 import org.testng.annotations.Test;
+
+import java.util.List;
 import java.util.Map;
 
 
 public class APITest extends APIBase {
 
     @Test
+    public void testRequest(){
+        Request rq = new Request();
+        rq.sendRequestByScenario("scenario3","regression","post");
+        Output op = new Output();
+        op.getOutputParameters();
+    }
+
+    @Test
     public void sendRegressionRequest() throws Exception {
         Request rq = new Request();
         try {
-            rq.sendRequest("regression", "post");
+            rq.sendRequestByScenario("scenario3","regression", "post");
         } catch (Exception e) {
-            //System.out.println("request timeout");
+            System.out.println("request timeout");
+            e.printStackTrace();
         }
-        checkOutput("regression");
+        //checkOutput("regression");
     }
 
-    public void checkOutput(String request) throws Exception{
+    @Test
+    public void sendStatusRequest(){
         Request rq = new Request();
-        Map<String, String> requestParameters = rq.getRequestParameters(request);
+        try{
+            rq.sendRequestByScenario("scenario2","status","get");
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    /*public void checkOutput(String request) throws Exception{
+        Request rq = new Request();
+        Excel ex = new Excel();
+        Map<String, String> requestParameters = ex.getRequestParameters(excelPath,request);
         Map<String, String> output = rq.getOutputParameters();
         Map<String, String> mapping = rq.getReqOutMapping(request);
 
@@ -42,5 +67,5 @@ public class APITest extends APIBase {
 
 
         }
-    }
+    }*/
 }
