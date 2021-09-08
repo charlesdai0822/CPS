@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [STRESS.bat1] but found [STRESS.bat]",
+      "children" : [ {
+        "name" : "testStressAPI",
+        "uid" : "a27796b0f7d2dc47",
+        "parentUid" : "a38ec7eb6c4212424fddac0f059ad1e2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630816200126,
+          "stop" : 1630816204793,
+          "duration" : 4667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a38ec7eb6c4212424fddac0f059ad1e2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

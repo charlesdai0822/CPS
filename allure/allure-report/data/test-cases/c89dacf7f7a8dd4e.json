@@ -1,0 +1,221 @@
+{
+  "uid" : "c89dacf7f7a8dd4e",
+  "name" : "testAllRegressionAPI",
+  "fullName" : "com.changefinancial.TestCases.T_8_TestRegressionAPI.testAllRegressionAPI",
+  "historyId" : "a95c5a1b934bd0375eadf94997e54e96",
+  "time" : {
+    "start" : 1630816189811,
+    "stop" : 1630816199909,
+    "duration" : 10098
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1630816188097,
+      "stop" : 1630816189707,
+      "duration" : 1610
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "send request by scenario",
+      "time" : {
+        "start" : 1630816192346,
+        "stop" : 1630816195749,
+        "duration" : 3403
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "scenario",
+        "value" : "scenario1"
+      }, {
+        "name" : "request",
+        "value" : "regression"
+      }, {
+        "name" : "requestType",
+        "value" : "post"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "get parameters in output.txt ",
+      "time" : {
+        "start" : 1630816195751,
+        "stop" : 1630816195754,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "send request by scenario",
+      "time" : {
+        "start" : 1630816195763,
+        "stop" : 1630816197840,
+        "duration" : 2077
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "scenario",
+        "value" : "scenario2"
+      }, {
+        "name" : "request",
+        "value" : "regression"
+      }, {
+        "name" : "requestType",
+        "value" : "post"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "get parameters in output.txt ",
+      "time" : {
+        "start" : 1630816197841,
+        "stop" : 1630816197842,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "send request by scenario",
+      "time" : {
+        "start" : 1630816197842,
+        "stop" : 1630816199899,
+        "duration" : 2057
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "scenario",
+        "value" : "scenario3"
+      }, {
+        "name" : "request",
+        "value" : "regression"
+      }, {
+        "name" : "requestType",
+        "value" : "post"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "get parameters in output.txt ",
+      "time" : {
+        "start" : 1630816199900,
+        "stop" : 1630816199903,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1630816200114,
+      "stop" : 1630816200114,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.changefinancial.TestCases.T_8_TestRegressionAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "com.changefinancial.TestCases.T_8_TestRegressionAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAllRegressionAPI"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite 1"
+  }, {
+    "name" : "suite",
+    "value" : "TEST_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.changefinancial.TestCases.T_8_TestRegressionAPI"
+  }, {
+    "name" : "host",
+    "value" : "WNZ202"
+  }, {
+    "name" : "thread",
+    "value" : "17796@WNZ202.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c89dacf7f7a8dd4e.json",
+  "parameterValues" : [ ]
+}

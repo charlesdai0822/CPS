@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WNZ202",
+    "children" : [ {
+      "name" : "17796@WNZ202.main(1)",
+      "children" : [ {
+        "name" : "testStressAPI",
+        "uid" : "a27796b0f7d2dc47",
+        "parentUid" : "37d203ccf102f062666ce417564aff48",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630816200126,
+          "stop" : 1630816204793,
+          "duration" : 4667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testAllRegressionAPI",
+        "uid" : "c89dacf7f7a8dd4e",
+        "parentUid" : "37d203ccf102f062666ce417564aff48",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630816189811,
+          "stop" : 1630816199909,
+          "duration" : 10098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "37d203ccf102f062666ce417564aff48"
+    } ],
+    "uid" : "5a055349274d4f8fc7474490c16ea4fe"
+  } ]
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "a27796b0f7d2dc47",
+  "name" : "testStressAPI",
+  "time" : {
+    "start" : 1630816200126,
+    "stop" : 1630816204793,
+    "duration" : 4667
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c89dacf7f7a8dd4e",
+  "name" : "testAllRegressionAPI",
+  "time" : {
+    "start" : 1630816189811,
+    "stop" : 1630816199909,
+    "duration" : 10098
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
