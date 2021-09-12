@@ -1,12 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 14.639 s <<< FAILURE! - in TestSuite
-com.changefinancial.TestCases.T_8_TestRegressionAPI.testAllRegressionAPI  Time elapsed: 8.746 s  <<< FAILURE!
-java.lang.AssertionError: expected [regress.bat] but found [null]
-	at com.changefinancial.TestCases.T_8_TestRegressionAPI.testAllRegressionAPI(T_8_TestRegressionAPI.java:25)
-
-com.changefinancial.TestCases.T_9_TestStressAPI.testStressAPI  Time elapsed: 2.307 s  <<< FAILURE!
-java.lang.AssertionError: expected [STRESS.bat1] but found [null]
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.913 s <<< FAILURE! - in TestSuite
+com.changefinancial.TestCases.T_9_TestStressAPI.testStressAPI  Time elapsed: 4.693 s  <<< FAILURE!
+java.lang.AssertionError: expected [STRESS.bat1] but found [STRESS.bat]
 	at com.changefinancial.TestCases.T_9_TestStressAPI.testStressAPI(T_9_TestStressAPI.java:25)
 
