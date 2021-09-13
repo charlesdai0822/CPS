@@ -22,7 +22,7 @@ public class T_9_TestStressAPI extends APIBase{
             rq.sendRequestByScenario(scenarios.get(i),"stress","post");
             opParameters = op.getOutputParameters();
             for(Map.Entry<String,String> entry: data.get(scenarios.get(i)).entrySet()){
-                AssertLocal.assertEquals(opParameters.get(mapping.get(entry.getKey())),entry.getValue()+"1");
+                AssertLocal.assertEquals(opParameters.get(mapping.get(entry.getKey())),entry.getValue());
             }
         }
     }
