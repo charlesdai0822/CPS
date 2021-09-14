@@ -27,7 +27,12 @@ public class Request {
             for(Map.Entry<String,String> entry:map.get(scenario).entrySet()){
                 parameters = parameters+"&"+entry.getKey()+"="+entry.getValue();
             }
-            given().request().body(parameters).when().get(request+"?"+parameters.substring(1));
+            try{
+                given().request().body(parameters).when().get(request+"?"+parameters.substring(1));
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+
         }else{
             System.out.println("requestType cannot be found");
         }

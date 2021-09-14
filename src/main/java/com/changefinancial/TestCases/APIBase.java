@@ -26,6 +26,7 @@ public class APIBase {
     public static String port;
     public static String basePath;
     public static String excelPath;
+    public static int requestTimeout;
 
     public Response res = null;
 
@@ -38,6 +39,7 @@ public class APIBase {
             port = pro.getProperty("Port");
             basePath=pro.getProperty("basePath");
             excelPath = pro.getProperty("excelPath");
+            requestTimeout = Integer.parseInt(pro.getProperty("requestTimeout"));
         }catch(IOException e){
             e.printStackTrace();
         }
@@ -48,7 +50,7 @@ public class APIBase {
         setBaseURL();
         setBasePath(basePath);
         setContentType(ContentType.JSON);
-        setRequestTimeout();
+        setRequestTimeout(requestTimeout);
     }
 
 
@@ -90,11 +92,11 @@ public class APIBase {
         return get();
     }
 
-    public static void setRequestTimeout(){
+    public static void setRequestTimeout(int timeout){
         RestAssured.config= RestAssuredConfig.config().httpClient(HttpClientConfig.httpClientConfig().
-                setParam("http.connection.timeout",2000).
-                setParam("http.socket.timeout",2000).
-                setParam("http.connection-manager.timeout",2000));
+                setParam("http.connection.timeout",timeout).
+                setParam("http.socket.timeout",timeout).
+                setParam("http.connection-manager.timeout",timeout));
     }
 
     public static JsonPath getJsonPath(Response res){

@@ -1,4 +1,8 @@
 {
 "regression":{"batchFile":"BATCH_FILE","user": "User","password": "Password","prntRegRpAtEnd": "PrntRegRpAtEnd","sprPort": "SprPort","autoStart": "AutoStart"},
-  "stress": {"batchFile":"BATCH_FILE","user": "User","password": "Password","prntRegRpAtEnd": "PrntRegRpAtEnd","sprPort": "SprPort","autoStart": "AutoStart"}
+  "stress": {"batchFile":"BATCH_FILE","user": "User","password": "Password","prntRegRpAtEnd": "PrntRegRpAtEnd","sprPort": "SprPort","autoStart": "AutoStart"},
+  "status":{"reportTaskId": "REPORT_TASK_ID"},
+  "batch": {"folderPath": "FOLDER_PATH"},
+  "reconciliation": {"sprAddress": "SprAddress","sprPort": "SprPort","regressLogFile": "RegressLogFile","reconStart": "ReconStart","reconEnd": "ReconEnd","reconLogFile": "ReconLogFile","reconCsvFile": "ReconCsvFile","reconrtfFile": "ReconrtfFile","reconDestFolder": "ReconDestFolder"},
+  "logon": {"user": "User","password": "Password","sendLogonToAll": "SendLogonToAll","autoStart": "AutoStart"}
 }

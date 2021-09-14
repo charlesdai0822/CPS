@@ -8,6 +8,7 @@ import java.util.Map;
 
 public class T_9_TestStressAPI extends APIBase{
 
+    /*this is to test all stress testing scenarios defined in Excel file*/
     @Test
     public void testStressAPI(){
         Excel ex = new Excel();
