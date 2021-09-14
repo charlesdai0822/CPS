@@ -30,7 +30,7 @@ public class Request {
             try{
                 given().request().body(parameters).when().get(request+"?"+parameters.substring(1));
             }catch (Exception e){
-                e.printStackTrace();
+                //e.printStackTrace();
             }
 
         }else{
