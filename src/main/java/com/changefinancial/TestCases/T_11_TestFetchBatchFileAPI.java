@@ -20,7 +20,7 @@ public class T_11_TestFetchBatchFileAPI extends APIBase{
         List<String> scenarios = ex.getRequestScenarios(excelPath,"batch");
         for(int i=0;i<scenarios.size();i++){
             System.out.println("request=batch, scenario="+scenarios.get(i));
-            rq.sendRequestByScenario(scenarios.get(i),"batch","post");
+            rq.sendRequestByScenario(scenarios.get(i),"batch","get");
             opParameters = op.getOutputParameters();
             for(Map.Entry<String,String> entry: data.get(scenarios.get(i)).entrySet()){
                 AssertLocal.assertEquals(opParameters.get(mapping.get(entry.getKey())),entry.getValue());
