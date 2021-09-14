@@ -19,6 +19,7 @@ public class T_12_TestReconciliationAPI extends APIBase{
         Map<String,Map<String,String>> data = ex.getRequestScenariosAndParameters(excelPath,"reconciliation");
         List<String> scenarios = ex.getRequestScenarios(excelPath,"reconciliation");
         for(int i=0;i<scenarios.size();i++){
+            System.out.println("request=reconciliation, scenario="+scenarios.get(i));
             rq.sendRequestByScenario(scenarios.get(i),"reconciliation","post");
             opParameters = op.getOutputParameters();
             for(Map.Entry<String,String> entry: data.get(scenarios.get(i)).entrySet()){

@@ -19,6 +19,7 @@ public class T_8_TestRegressionAPI extends APIBase{
         Map<String,Map<String,String>> data = ex.getRequestScenariosAndParameters(excelPath,"regression");
         List<String> scenarios = ex.getRequestScenarios(excelPath,"regression");
         for(int i=0;i<scenarios.size();i++){
+            System.out.println("request=regression, scenario="+scenarios.get(i));
             rq.sendRequestByScenario(scenarios.get(i),"regression","post");
             opParameters = op.getOutputParameters();
             for(Map.Entry<String,String> entry: data.get(scenarios.get(i)).entrySet()){

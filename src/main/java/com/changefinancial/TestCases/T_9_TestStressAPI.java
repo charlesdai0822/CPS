@@ -20,10 +20,11 @@ public class T_9_TestStressAPI extends APIBase{
         Map<String,Map<String,String>> data = ex.getRequestScenariosAndParameters(excelPath,"stress");
         List<String> scenarios = ex.getRequestScenarios(excelPath,"stress");
         for(int i=0;i<scenarios.size();i++){
+            System.out.println("request=stress, scenario="+scenarios.get(i));
             rq.sendRequestByScenario(scenarios.get(i),"stress","post");
             opParameters = op.getOutputParameters();
             for(Map.Entry<String,String> entry: data.get(scenarios.get(i)).entrySet()){
-                AssertLocal.assertEquals(opParameters.get(mapping.get(entry.getKey())),entry.getValue()+"1");
+                AssertLocal.assertEquals(opParameters.get(mapping.get(entry.getKey())),entry.getValue());
             }
         }
     }
