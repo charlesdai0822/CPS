@@ -4,5 +4,9 @@
   "status":{"reportTaskId": "REPORT_TASK_ID"},
   "batch-file": {"folderPath": "FOLDER_PATH"},
   "reconciliation": {"sprAddress": "SprAddress","sprPort": "SprPort","regressLogFile": "RegressLogFile","reconStart": "ReconStart","reconEnd": "ReconEnd","reconLogFile": "ReconLogFile","reconCsvFile": "ReconCsvFile","reconrtfFile": "ReconrtfFile","reconDestFolder": "ReconDestFolder"},
-  "logon": {"user": "User","password": "Password","sendLogonToAll": "SendLogonToAll","autoStart": "AutoStart"}
+  "logon": {"user": "User","password": "Password","sendLogonToAll": "SendLogonToAll","autoStart": "AutoStart"},
+  "report": {"reportTaskId": "REPORT_TASK_ID","reportName": "REPORT_NAME"},
+  "logs-compare": {"match": "MATCH","comp": "COMP","exclude": "EXCLUDE","uatLog": "UATLog","productionLog": "ProductionLog","deviceName": "DeviceName","reportName": "ReportName","location": "Location","sprAddress": "SprAddress","sprPort": "SprPort"},
+  "spr-file": {"folderPath": "FOLDER_PATH"},
+  "settlement": {"user": "User","password": "Password","gnrtStlmntFile": "GnrtStlmntFile","stlmntFilePath": "StlmntFilePath","expFileLogsAll": "ExpFileLogsAll","expDevicesFltr": "expDevicesFltr","exptFileFormat": "ExptFileFormat","exportFileName": "ExportFileName","exportFilePath": "ExportFilePath","expLogFileFltr": "ExpLogFileFltr","autoStart": "AutoStart"}
 }

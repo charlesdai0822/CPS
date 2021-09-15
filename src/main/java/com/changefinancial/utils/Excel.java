@@ -1,5 +1,6 @@
 package com.changefinancial.utils;
 
+import io.qameta.allure.Step;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -15,6 +16,7 @@ import java.util.Map;
 
 public class Excel {
 
+    @Step("get EXCEL sheet by name")
     public XSSFSheet returnSheetByName(String excelPath,String sheetName){
 
         try{
@@ -37,6 +39,7 @@ public class Excel {
     }
 
     //this is to get scenario, key, value in a specific request
+    @Step("get request scenarios and parameters")
     public Map<String,Map<String,String>> getRequestScenariosAndParameters(String excelPath,String request){
         Map<String,Map<String,String>> data = new HashMap<>();
         Map<String,String> parameters;
@@ -68,6 +71,7 @@ public class Excel {
         return data;
     }
 
+    @Step("get request parameters by scenario")
     public Map<String,String> getRequestParametersByScenario(String excelPath,String request, String scenario){
         Map<String,String> data = new HashMap<>();
         XSSFSheet sheet = returnSheetByName(excelPath,request);
@@ -91,6 +95,7 @@ public class Excel {
         return data;
     }
 
+    @Step("get all scenario names for the specific request")
     public List<String> getRequestScenarios(String excelPath,String request){
 
         XSSFSheet sheet = returnSheetByName(excelPath,request);
