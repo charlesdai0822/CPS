@@ -28,6 +28,7 @@ public class Request {
                 parameters = parameters+"&"+entry.getKey()+"="+entry.getValue();
             }
             try{
+                System.out.println("request parameters ="+parameters);
                 given().request().body(parameters).when().get(request+"?"+parameters.substring(1));
             }catch (Exception e){
                 //e.printStackTrace();
