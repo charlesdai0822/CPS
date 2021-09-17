@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite 1">
-    <test name="TEST_1" verbose="2" preserve-order="true" enabled="true">
+    <test name="TEST_1" verbose="2"  enabled="true">
         <classes>
             <class name="com.changefinancial.TestCases.T_8_TestRegressionAPI"></class>
-            <class name="com.changefinancial.TestCases.T_9_TestStressAPI"></class>
-            <class name="com.changefinancial.TestCases.T_10_TestStatusAPI"></class>
-            <class name="com.changefinancial.TestCases.T_11_TestFetchBatchFileAPI"></class>
-            <class name="com.changefinancial.TestCases.T_12_TestReconciliationAPI"></class>
-            <class name="com.changefinancial.TestCases.T_13_TestLogonAPI"></class>
-            <class name="com.changefinancial.TestCases.T_14_TestLogCompareAPI"></class>
-            <class name="com.changefinancial.TestCases.T_15_TestFetchReportFileAPI"></class>
-            <class name="com.changefinancial.TestCases.T_16_TestFetchSprFileAPI"></class>
-            <class name="com.changefinancial.TestCases.T_17_TestSettlementAPI"></class>
         </classes>
     </test>
 </suite>
