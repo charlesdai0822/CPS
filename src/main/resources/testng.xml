@@ -5,6 +5,14 @@
         <classes>
             <class name="com.changefinancial.TestCases.T_8_TestRegressionAPI"></class>
             <class name="com.changefinancial.TestCases.T_9_TestStressAPI"></class>
+            <class name="com.changefinancial.TestCases.T_10_TestStatusAPI"></class>
+            <class name="com.changefinancial.TestCases.T_11_TestFetchBatchFileAPI"></class>
+            <class name="com.changefinancial.TestCases.T_12_TestReconciliationAPI"></class>
+            <class name="com.changefinancial.TestCases.T_13_TestLogonAPI"></class>
+            <class name="com.changefinancial.TestCases.T_14_TestLogCompareAPI"></class>
+            <class name="com.changefinancial.TestCases.T_15_TestFetchReportFileAPI"></class>
+            <class name="com.changefinancial.TestCases.T_16_TestFetchSprFileAPI"></class>
+            <class name="com.changefinancial.TestCases.T_17_TestSettlementAPI"></class>
         </classes>
     </test>
 </suite>
