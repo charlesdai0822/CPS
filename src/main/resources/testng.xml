@@ -4,6 +4,7 @@
     <test name="TEST_1" verbose="2"  enabled="true">
         <classes>
             <class name="com.changefinancial.TestCases.T_8_TestRegressionAPI"></class>
+            <class name="com.changefinancial.TestCases.T_9_TestStressAPI"></class>
         </classes>
     </test>
 </suite>
